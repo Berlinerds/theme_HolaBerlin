@@ -32,6 +32,9 @@
 					  <img src="/<?php print $directory; ?>/images/logos-menu-11.png"></a></li>
 					<li><a target="_blank" href="https://soundcloud.com/holaberlin-holaberlin">
 					  <img src="/<?php print $directory; ?>/images/logos-menu-12.png"></a></li>
+					  <li><a target="_blank" href="http://vimeo.com/user5427714">
+					  <img src="/<?php print $directory; ?>/images/logos-menu-13.png"></a></li>
+
 				</ul>
 			</nav>
 		</div>

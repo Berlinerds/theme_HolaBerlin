@@ -31,6 +31,9 @@
 			<li class="accordion__item hoverable clickable">
 				<a href="https://soundcloud.com/holaberlin-holaberlin" target="_blank"><img src="/sites/all/themes/boilerplate/images/logos-menu-12.png">HolaBerlin en Soundcloud</a>
 			</li>
+			<li class="accordion__item hoverable clickable">
+				<a href="http://vimeo.com/user5427714" target="_blank"><img src="/sites/all/themes/boilerplate/images/logos-menu-13.png">HolaBerlin en Vimeo</a>
+			</li>
 		</ul>
 	</div>  
 	<!-- end of tours titles -->

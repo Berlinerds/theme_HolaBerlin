@@ -1,0 +1,23 @@
+/* Este archivo se usa para formatear las notificaciones por email */
+
+table {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #ddd;
+  color: #e35f34;
+}
+
+table th {
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #eee;
+  padding: 5px;
+}
+
+table tr {
+  border: 1px solid #ddd;
+}
+
+table td {
+  padding: 10px;
+}

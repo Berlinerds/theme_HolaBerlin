@@ -1,0 +1,150 @@
+<div class="blog__sidebar w-all to-right bleed-left">
+	<div class="blog__sidebar--holder w-all bleed-inside bleed-vertical-tiny form-background clearfix js-sticky-element-blog" style="margin-top: 112px;">
+
+		<!-- calendar -->
+		<div class="calendar accordion blog__sidebar--list w-all hoverable">
+			
+			<h5 class="encapsulado">Calendario</h5>
+			<ul class="accordion__list">
+				<li class="accordion__item">
+					<span class="accordion__item--name accordion__subaccordion__toggle closed"><a class="clean_link" href="#">2014</a></span><a class="clean_link" href="#">
+					</a><ul class="accordion__subaccordion__list closed"><a class="clean_link" href="#">
+						</a><li class="accordion__subaccordion__item"><a class="clean_link" href="#">
+							<span class="accordion__subaccordion__item--name">
+								</span></a><a class="clean_link" href="#">Diciembre</a>
+							
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Octubre</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Septiembre</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Julio</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Junio</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Abril</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Marzo</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Febrero</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Enero</a>
+							</span>
+						</li>
+					</ul>
+				</li>
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">2013</a></span>
+				</li>
+				<li class="accordion__item">
+					<span class="accordion__item--name accordion__subaccordion__toggle closed"><a class="clean_link" href="#">2012</a></span><a class="clean_link" href="#">
+					</a><ul class="accordion__subaccordion__list closed"><a class="clean_link" href="#">
+						</a><li class="accordion__subaccordion__item"><a class="clean_link" href="#">
+							<span class="accordion__subaccordion__item--name">
+								</span></a><a class="clean_link" href="#">Diciembre</a>
+							
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Octubre</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Septiembre</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Julio</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Junio</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Abril</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Marzo</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Febrero</a>
+							</span>
+						</li>
+						<li class="accordion__subaccordion__item">
+							<span class="accordion__subaccordion__item--name">
+								<a class="clean_link" href="#">Enero</a>
+							</span>
+						</li>
+					</ul>
+				</li>					
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">2011</a></span>
+				</li>
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">2010</a></span>
+				</li>
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">2009</a></span>
+				</li>
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">2008</a></span>
+				</li>
+			</ul>
+		</div>	<!-- end of calendar -->
+
+		<!-- featured_posts -->
+		<div class="featured_posts accordion blog__sidebar--list w-all hoverable medium-space-before medium-space-after">
+			<h5 class="encapsulado">Posts destacados</h5>
+			<ul class="accordion__list">
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">Muro de Berlín</a></span>
+				</li>
+				<li class="accordion__item">
+					<span class="accordion__item--name"><a class="clean_link" href="#">Parque Humboldthain</a></span>
+				</li>
+			</ul>
+			
+		</div>  <!-- end of featured_posts -->
+
+
+		<div class="blog__sidebar--cta w-all clickable hoverable tiny-space-before">
+			<img src="<?php echo path_to_theme(); ?>/images/sistema-de-pago.png" class="w-all">
+		</div>
+
+		<div class="blog__sidebar--readmore w-all div-center clearfix clickable hoverable tiny-space-before">
+			Ver más Servicios
+		</div>
+	</div>
+</div>

@@ -1,0 +1,91 @@
+#skip a {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+#skip a:active, #skip a:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static !important;
+  width: auto;
+}
+
+.medium-space-before {
+    margin-top: 20px;   
+}
+
+#main, #bottom {
+	margin-bottom: 0px;
+}
+
+.header__navigator--item {
+  word-spacing: 4px;
+}
+
+/* Parche de Diego para ocultar un campo que no quiero mostrar en Add to cart form de tour Sachsenhausen*/
+#block-block-9 .form-item-attributes-product-select {
+  display:none;
+}
+
+.slider-text__headline h1.front a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.slider-text__headline h1.front a:hover{
+  text-decoration: underline;
+}
+
+.footer__logo img {
+  margin-right: 20px;
+}
+
+.footer__holder {
+  color: #fff;
+}
+
+#node-26 h2 { display:none; }
+
+div[class$="und-0-value-date"] .description,
+div[class$="und-0-value-time"] .description
+{ 
+  display:none;
+}
+
+#admin-menu li.admin-menu-account > a {
+  background: #911 bottom left repeat-x;
+}
+
+.nosotros__sidebar--holder img {
+  margin: 4px 6px 4px 0;
+}
+
+/* Formulario de contacto en barra lateral */
+#block-block-9 #node-1 h2 {
+  display: none;
+}
+
+#block-block-9 #node-26 #webform-component-nombre,
+#block-block-9 #node-26 #webform-component-e-mail {
+  width: 100%;
+  float: left;
+}
+
+#block-block-9 #node-26 .form-item input {
+  padding: 3px !important;
+}
+
+#block-block-9 #node-26 form#webform-client-form-26 {
+  margin: 10px 0 0 0;
+}
+
+.block-commerce-checkout-progress li.paypal_ec {
+  display: none;
+}

@@ -1,0 +1,74 @@
+name = Boilerplate
+description = Metaltoad HTML5/SASS base theme for Drupal 7
+screenshot = images/screenshot.png
+core = 7.x
+version = 1.x-dev
+project = Boilerplate
+engine = phptemplate
+
+regions[header] = Header
+regions[highlight] = Highlight
+regions[content_bottom] = Content Bottom
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[bottom] = Bottom
+regions[footer] = Footer
+
+;regions[page_top] = Page top
+;regions[navbar] = Navigation Bar
+;regions[help] = Help
+;regions[content_top] = Content Top
+;regions[sidebar_second] = Second sidebar
+;regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+scripts[] = js/libs/modernizr-2.6.2-respond-1.1.0.min.js
+;Jquery y Anythingslider se cargan en template.php para evitar que se carguen en paginas de administracion
+scripts[] = js/libs/jquery-1.11.0.min.js
+scripts[] = js/libs/jquery.anythingslider.min.js
+scripts[] = js/libs/jquery.BlackAndWhite.min.js
+scripts[] = js/script.js
+scripts[] = js/plugins.js
+scripts[] = js/main.js
+
+
+plugins[panels][layouts] = layouts
+
+;stylesheets[all][] = css/compiled/style.css
+stylesheets[all][] = css/normalize.min.css
+stylesheets[all][] = css/main.css
+;stylesheets[all][] = css/admin.css
+stylesheets[all][] = css/extra.css
+stylesheets[all][] = css/vendor/animate.css
+stylesheets[all][] = css/vendor/anythingslider.css
+
+stylesheets-conditional[lte IE 8][all][]  = css/compiled/ie8.css
+stylesheets-conditional[lte IE 7][all][]  = css/compiled/ie7.css
+stylesheets-conditional[lte IE 6][all][]  = css/compiled/ie6.css
+
+settings[basic_tabs] = 1
+settings[basic_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+<<<<<<< HEAD
+settings[clear_registry] = 0
+=======
+settings[clear_registry] = 0
+
+
+>>>>>>> 5d1823ed6e29eceebdcca0910da872195f9513ab
+
+; Information added by drupal.org packaging script on 2013-01-22
+version = "7.x-1.9"
+core = "7.x"
+project = "boilerplate"
+datestamp = "1358881512"
+
